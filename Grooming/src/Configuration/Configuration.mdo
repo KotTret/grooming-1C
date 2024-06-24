@@ -67,7 +67,7 @@
   <roles>Role.Администратор</roles>
   <roles>Role.Закупщик</roles>
   <filterCriteria>FilterCriterion.СвязанныеДокументы</filterCriteria>
-  <commonModules>CommonModule.УзнатьТекущегоПользователяКлиент</commonModules>
+  <commonModules>CommonModule.УзнатьТекущегоПользователяКлиентПовтИсп</commonModules>
   <commonModules>CommonModule.УзнатьТекущегоПользователяВызовСервера</commonModules>
   <commonModules>CommonModule.УзнатьТекущегоПользователяСервер</commonModules>
   <commonModules>CommonModule.РаботаСЦенамиВызовСервера</commonModules>

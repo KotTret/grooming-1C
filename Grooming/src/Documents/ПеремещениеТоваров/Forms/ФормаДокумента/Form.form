@@ -367,10 +367,6 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Товары.Товар</segments>
       </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>ТоварыТоварПриИзменении</name>
-      </handlers>
       <extendedTooltip>
         <name>ТоварыТоварРасширеннаяПодсказка</name>
         <id>37</id>
