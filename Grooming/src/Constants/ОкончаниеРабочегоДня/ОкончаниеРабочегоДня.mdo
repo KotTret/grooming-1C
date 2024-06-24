@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91bce9ab-ee94-4ea7-bf90-c9f72433d790">
+  <producedTypes>
+    <managerType typeId="ad17f419-3728-4b33-a40a-30994c524961" valueTypeId="85ad8212-5bba-4841-8548-3dd070da7ffd"/>
+    <valueManagerType typeId="dbdfad20-83c4-48bc-8c7d-cd9389222de5" valueTypeId="439aa790-8dc2-4119-a767-c23fa9f388fe"/>
+    <valueKeyType typeId="1ef26ebf-5c3b-41d4-beee-6a34b5059486" valueTypeId="78d2d540-f16c-4a1a-b530-1ed45a8db198"/>
+  </producedTypes>
+  <name>ОкончаниеРабочегоДня</name>
+  <synonym>
+    <key>ru</key>
+    <value>Окончание рабочего дня</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

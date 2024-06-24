@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d22b50d-ad4c-4594-9de1-f9d053f161f9">
+  <name>Гроуминг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гроуминг</value>
+  </synonym>
+</mdclass:Style>

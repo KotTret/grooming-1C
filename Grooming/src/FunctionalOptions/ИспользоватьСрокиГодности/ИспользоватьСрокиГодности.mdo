@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22e3523a-cf91-4070-99c5-5ebe69d5086a">
+  <name>ИспользоватьСрокиГодности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать сроки годности</value>
+  </synonym>
+  <location>Constant.ИспользоватьСрокиГодности</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Номенклатура.Attribute.СрокГодности</content>
+  <content>AccumulationRegister.ТоварыНаСкладах.Dimension.СрокГодности</content>
+</mdclass:FunctionalOption>

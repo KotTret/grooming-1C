@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="299aae83-c3bf-4e40-b5d9-ebe2dfffa0c4">
+  <name>Деньги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Деньги</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Деньги</picture>
+  </picture>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Деньги</subsystems>
+</mdclass:Subsystem>

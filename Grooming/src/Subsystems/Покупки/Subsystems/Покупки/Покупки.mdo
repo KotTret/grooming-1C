@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e21a437-a374-49cd-af71-3b04317ec815">
+  <name>Покупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Покупки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПоступлениеТоваровИМатериалов</content>
+  <content>Document.ПеремещениеТоваров</content>
+  <content>Report.ТоварыНаСкладах</content>
+  <content>Document.ПоступлениеУслуг</content>
+  <content>AccumulationRegister.УчетЗатрат</content>
+  <content>Report.ОтчетПоПрибыли</content>
+  <content>FunctionalOption.ИспользоватьСрокиГодности</content>
+  <parentSubsystem>Subsystem.Покупки</parentSubsystem>
+</mdclass:Subsystem>

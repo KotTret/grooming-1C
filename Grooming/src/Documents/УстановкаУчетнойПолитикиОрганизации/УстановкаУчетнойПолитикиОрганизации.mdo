@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e99e5c76-517e-4f0c-8808-6429c5c6cd65">
+  <producedTypes>
+    <objectType typeId="5cb2999f-c674-4e92-a052-04c1863f740f" valueTypeId="e0d5e220-38e4-420b-9c81-8b79475b6cac"/>
+    <refType typeId="255df5de-5f30-41ef-ac34-429ac78d2673" valueTypeId="6265ea5b-55ba-46dc-b74a-e780265dd7db"/>
+    <selectionType typeId="d8e68110-9fa0-477d-95b8-23cc11cff419" valueTypeId="9b528449-17f9-49da-a3dc-3204fa56ed4d"/>
+    <listType typeId="786336be-57cb-4c96-88e0-432699bb1bd3" valueTypeId="64738db0-b7cb-482e-8881-c2402a4a0344"/>
+    <managerType typeId="c3ce6330-b423-4dc3-be81-0a72a2712631" valueTypeId="c7641753-4414-4996-acbb-a7b25d5b81fc"/>
+  </producedTypes>
+  <name>УстановкаУчетнойПолитикиОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка учетной политики организации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаУчетнойПолитикиОрганизации.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаУчетнойПолитикиОрганизации.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ТоварыНаСкладах</registerRecords>
+  <registerRecords>InformationRegister.УчетнаяПолитика</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="03596dce-b2ca-44eb-a30a-5a109b703fce">
+    <name>УчетнаяПолитика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная политика</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыУчетнойПолитики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ecfb4e56-4023-4ef1-b649-9e495769fbaf">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43b77b0e-a23e-4062-bf87-18321dd39cd9">
+  <producedTypes>
+    <managerType typeId="5c04082d-30d3-4c5c-ae28-304e32a64dde" valueTypeId="50999d06-1c53-43e9-a063-ff8845059675"/>
+    <valueManagerType typeId="60e72e4e-7494-4f55-8ae7-5d0e9e52d00d" valueTypeId="4b49b81c-a2d4-4de9-8e92-46c84dba00c2"/>
+    <valueKeyType typeId="d7b9e4b3-153b-4fc7-96dd-bb7f6952f152" valueTypeId="9497ea7c-0f20-4b5a-8e24-25987ee36a35"/>
+  </producedTypes>
+  <name>ЗапретПроведенияПриОтрицательныхОстатках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрет проведения при отрицательных остатках</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

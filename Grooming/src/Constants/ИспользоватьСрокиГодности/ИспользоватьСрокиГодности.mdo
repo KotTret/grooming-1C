@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75c96d2f-94b0-487a-b6bd-4499c9d1af97">
+  <producedTypes>
+    <managerType typeId="556e7827-06aa-4348-8a55-7a898501b1c9" valueTypeId="2ce00cc7-6610-4806-acd7-7aca14c83aab"/>
+    <valueManagerType typeId="45f4fcfd-c997-47e3-8681-22a7ccb5a408" valueTypeId="2c751540-0c6e-4f7a-b329-aea9e5c0f46c"/>
+    <valueKeyType typeId="38b98b04-ced7-481e-a0c2-8586e66d93a0" valueTypeId="6bed48b2-69c3-45be-9851-1ce83f40dd86"/>
+  </producedTypes>
+  <name>ИспользоватьСрокиГодности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать сроки годности</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

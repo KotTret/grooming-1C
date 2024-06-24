@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e17092db-7b5c-4574-933e-9f5214d50b95">
+  <name>ГрумингСалон</name>
+  <synonym>
+    <key>ru</key>
+    <value>1С:Груминг салон</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="1b6c8e25-d2a7-4e3b-bde5-41a4e44bd6b2"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="92253a33-83b1-44f9-87c5-2fbe486a67af"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="0e2e8da6-44ee-4ca1-b1c2-4c249fa4173a"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="d8d99d17-da2d-4eeb-8f94-9eeb4866b0c7"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="21ead703-ba1c-4d8b-802a-a0b014615715"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c9d3230d-3358-4763-8ab0-ec6911503d37"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="789184d9-029b-46ed-80f6-9076f22008d9"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Третьяк Константин</vendor>
+  <version>4</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <mainSectionPicture/>
+  <defaultStyle>Style.ГроумингСалон</defaultStyle>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <logo/>
+  <splash/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.24</compatibilityMode>
+  <languages uuid="3b34eae6-69a8-45e9-98db-7ff41c53db3a">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <subsystems>Subsystem.Покупки</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Персонал</subsystems>
+  <subsystems>Subsystem.Настройки</subsystems>
+  <subsystems>Subsystem.Деньги</subsystems>
+  <styles>Style.Гроуминг</styles>
+  <styles>Style.ГроумингСалон</styles>
+  <commonPictures>CommonPicture.Справочники</commonPictures>
+  <commonPictures>CommonPicture.Покупки</commonPictures>
+  <commonPictures>CommonPicture.Продажи</commonPictures>
+  <commonPictures>CommonPicture.Персонал</commonPictures>
+  <commonPictures>CommonPicture.Настройки</commonPictures>
+  <commonPictures>CommonPicture.Деньги</commonPictures>
+  <commonPictures>CommonPicture.Главное</commonPictures>
+  <commonPictures>CommonPicture.БизнесПроцессы</commonPictures>
+  <commonPictures>CommonPicture.БухгалтерскийУчет</commonPictures>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.Руководитель</roles>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Закупщик</roles>
+  <filterCriteria>FilterCriterion.СвязанныеДокументы</filterCriteria>
+  <commonModules>CommonModule.УзнатьТекущегоПользователяКлиент</commonModules>
+  <commonModules>CommonModule.УзнатьТекущегоПользователяВызовСервера</commonModules>
+  <commonModules>CommonModule.УзнатьТекущегоПользователяСервер</commonModules>
+  <commonModules>CommonModule.РаботаСЦенамиВызовСервера</commonModules>
+  <commonModules>CommonModule.РаботаСТабличнымиЧастямиКлиент</commonModules>
+  <functionalOptions>FunctionalOption.ИспользоватьСклады</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьСрокиГодности</functionalOptions>
+  <definedTypes>DefinedType.ФинансовыеДанные</definedTypes>
+  <commandGroups>CommandGroup.Настройки</commandGroups>
+  <constants>Constant.ИспользоватьСклады</constants>
+  <constants>Constant.ЗапретПроведенияПриОтрицательныхОстатках</constants>
+  <constants>Constant.НачалоРабочегоДня</constants>
+  <constants>Constant.ОкончаниеРабочегоДня</constants>
+  <constants>Constant.ИспользоватьСрокиГодности</constants>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.ПородыПитомцев</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.ИсточникиПолученияИнформации</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.СтатьиЗатрат</catalogs>
+  <catalogs>Catalog.Кассы</catalogs>
+  <catalogs>Catalog.Банки</catalogs>
+  <catalogs>Catalog.ЭквайринговыеТерминалы</catalogs>
+  <documents>Document.ЗаписьКлиента</documents>
+  <documents>Document.РеализацияТоваровИУслуг</documents>
+  <documents>Document.ПоступлениеТоваровИМатериалов</documents>
+  <documents>Document.ПеремещениеТоваров</documents>
+  <documents>Document.УстановкаУчетнойПолитикиОрганизации</documents>
+  <documents>Document.ПоступлениеУслуг</documents>
+  <documents>Document.ПоступлениеДенежныхСредств</documents>
+  <documents>Document.РасходДенежныхСредств</documents>
+  <enums>Enum.ТипыОрганизаций</enums>
+  <enums>Enum.ТипыКонтрагентов</enums>
+  <enums>Enum.ПолФизическогоЛица</enums>
+  <enums>Enum.ВидыПитомцев</enums>
+  <enums>Enum.ТипыНоменклатуры</enums>
+  <enums>Enum.ВидЦены</enums>
+  <enums>Enum.ВидыУчетнойПолитики</enums>
+  <enums>Enum.ВидыОперацийПоступленияДенег</enums>
+  <enums>Enum.ВидыОперацийРасходаДенег</enums>
+  <enums>Enum.ТипДенежныхСредств</enums>
+  <enums>Enum.ОплатаДокумента</enums>
+  <reports>Report.ОтчетПоОказаннымУслугам</reports>
+  <reports>Report.ТоварыНаСкладах</reports>
+  <reports>Report.ОтчетПоПрибыли</reports>
+  <reports>Report.ДвижениеНаличныхДенег</reports>
+  <reports>Report.ОтчетПоБезналичнойОплате</reports>
+  <dataProcessors>DataProcessor.МониторРуководителя</dataProcessors>
+  <dataProcessors>DataProcessor.ПланированиеЗагрузкиСотрудников</dataProcessors>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.УчетнаяПолитика</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ЗаказыКлиентов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.УчетЗатрат</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДенежныеСредства</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.БезналичнаяОплата</accumulationRegisters>
+</mdclass:Configuration>

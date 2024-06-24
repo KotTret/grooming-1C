@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d492e53b-311c-4e03-b742-459b701d1f52">
+  <producedTypes>
+    <selectionType typeId="8ba6a49b-aa1b-497b-b967-ecdb78b8cbe2" valueTypeId="187c3466-7d09-4e5c-9ba6-d374e799db3e"/>
+    <listType typeId="f3ec30ef-7022-4bc3-8ad4-7aba56186ebc" valueTypeId="10db7ff1-70e4-4f33-bd00-70fbd51f8093"/>
+    <managerType typeId="2ef48986-52f4-42d0-815a-8620a8f38ddd" valueTypeId="5cb871d0-36e9-4171-b307-5ac9bf788ca1"/>
+    <recordSetType typeId="1b90dcfc-818c-43f0-a6a4-027776a1c15d" valueTypeId="97dbfbd9-9092-4471-a80d-dc37e5558ccd"/>
+    <recordKeyType typeId="e9bc7859-5c09-4090-bd42-22886c794753" valueTypeId="a508ba0b-c28d-45cd-9d56-399802197f23"/>
+    <recordType typeId="e4648d95-b61f-4c4f-a75b-3d99c6194b62" valueTypeId="52c983c8-5434-4fa7-86ba-47c51f732bc7"/>
+  </producedTypes>
+  <name>УчетЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет затрат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="26808086-c3c5-4706-a020-b2ca6ea51e2b">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ФинансовыеДанные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="784eed55-56d0-40ed-a213-ad82010aa3e9">
+    <name>СтатьяЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья затрат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиЗатрат</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

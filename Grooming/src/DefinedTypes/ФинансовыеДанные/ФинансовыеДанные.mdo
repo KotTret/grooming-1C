@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdf1bb35-4091-4302-990f-d0fe8825e1d4">
+  <producedTypes>
+    <containerType typeId="0ee74ee8-604b-45b6-a566-022cbdb0f931" valueTypeId="8338fe4d-837c-43c3-a245-db452576b432"/>
+  </producedTypes>
+  <name>ФинансовыеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Финансовые данные</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

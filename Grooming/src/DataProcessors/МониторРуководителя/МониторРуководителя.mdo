@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7df7a3fe-f635-4e96-87ca-d53e866d61ae">
+  <producedTypes>
+    <objectType typeId="aedada48-2ce9-43cb-b875-1f7ad300c93d" valueTypeId="d502659a-1615-4a21-9d74-4c2879ab5925"/>
+    <managerType typeId="cc8842df-453e-403a-b6bc-711587e58ee4" valueTypeId="3e42a669-f5a9-4365-a006-579114bf76e7"/>
+  </producedTypes>
+  <name>МониторРуководителя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Монитор руководителя</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МониторРуководителя.Form.Форма</defaultForm>
+  <forms uuid="80c0a7ab-9edd-4067-9bb3-272267ef0064">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

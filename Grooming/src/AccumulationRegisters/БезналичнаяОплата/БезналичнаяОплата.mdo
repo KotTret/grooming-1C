@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e4a8412-c527-4b0f-a76a-b1461fb880b4">
+  <producedTypes>
+    <selectionType typeId="5d1c496d-ec4a-4d8f-b99b-39c2952f1a6e" valueTypeId="cfa05b93-5298-4ab6-87e9-02e58f7f7a07"/>
+    <listType typeId="df0305ee-4476-4c50-a3d2-312212918fae" valueTypeId="95254c46-97ae-4ec9-a2bd-4fb9b9866b29"/>
+    <managerType typeId="6b768acd-49ba-4e15-936e-c6df3c803dbb" valueTypeId="02ebcb75-3d66-4c4d-80bf-916dfa5bc09f"/>
+    <recordSetType typeId="a850212f-c1f3-4986-b1c8-4292cdcb4655" valueTypeId="173b59df-99e4-43c4-9319-45b0ff2411a6"/>
+    <recordKeyType typeId="97e2a676-e6a4-4419-9a66-674a87d9ad14" valueTypeId="7e1568c3-2076-4410-b567-97941318f897"/>
+    <recordType typeId="d799c789-e801-46de-a88b-7d0e32a07043" valueTypeId="43b39ad6-f8c4-43a4-8d1a-cf35c5d61939"/>
+  </producedTypes>
+  <name>БезналичнаяОплата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Безналичная оплата</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="fdc4cfd0-9734-4d68-ba26-e710ce06230d">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ФинансовыеДанные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="acfa4952-95c6-4b38-a655-dffd9ad1e2fc">
+    <name>ЭквайринговыйТерминал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эквайринговый терминал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭквайринговыеТерминалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

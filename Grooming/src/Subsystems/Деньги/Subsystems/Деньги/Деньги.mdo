@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c3db01c-4296-4753-84f8-b7a1be216eb0">
+  <name>Деньги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Деньги</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПоступлениеДенежныхСредств</content>
+  <content>Document.РасходДенежныхСредств</content>
+  <content>AccumulationRegister.ДенежныеСредства</content>
+  <content>AccumulationRegister.БезналичнаяОплата</content>
+  <content>Report.ДвижениеНаличныхДенег</content>
+  <content>Report.ОтчетПоБезналичнойОплате</content>
+  <parentSubsystem>Subsystem.Деньги</parentSubsystem>
+</mdclass:Subsystem>

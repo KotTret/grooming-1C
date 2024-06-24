@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4efff6c4-16be-4e3a-8898-9573ac28e8be">
+  <name>Покупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Покупки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Покупки</picture>
+  </picture>
+  <content>FunctionalOption.ИспользоватьСрокиГодности</content>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Покупки</subsystems>
+</mdclass:Subsystem>

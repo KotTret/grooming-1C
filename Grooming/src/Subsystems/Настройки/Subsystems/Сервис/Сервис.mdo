@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44f7dd91-1c61-4a5f-8ddd-cff6476f868e">
+  <name>Сервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.ИспользоватьСклады</content>
+  <content>Document.УстановкаУчетнойПолитикиОрганизации</content>
+  <content>InformationRegister.УчетнаяПолитика</content>
+  <content>FunctionalOption.ИспользоватьСклады</content>
+  <content>Constant.ЗапретПроведенияПриОтрицательныхОстатках</content>
+  <content>Constant.НачалоРабочегоДня</content>
+  <content>Constant.ОкончаниеРабочегоДня</content>
+  <content>FilterCriterion.СвязанныеДокументы</content>
+  <parentSubsystem>Subsystem.Настройки</parentSubsystem>
+</mdclass:Subsystem>

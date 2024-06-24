@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e24fbc7-1243-4a65-8d96-cd26ece55422">
+  <name>Продажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ЗаписьКлиента</content>
+  <content>Document.РеализацияТоваровИУслуг</content>
+  <content>InformationRegister.ЦеныНоменклатуры</content>
+  <content>Document.ПеремещениеТоваров</content>
+  <content>Report.ОтчетПоОказаннымУслугам</content>
+  <content>Report.ТоварыНаСкладах</content>
+  <content>AccumulationRegister.УчетЗатрат</content>
+  <content>Report.ОтчетПоПрибыли</content>
+  <content>FunctionalOption.ИспользоватьСрокиГодности</content>
+  <content>DataProcessor.ПланированиеЗагрузкиСотрудников</content>
+  <content>DataProcessor.МониторРуководителя</content>
+  <parentSubsystem>Subsystem.Продажи</parentSubsystem>
+</mdclass:Subsystem>

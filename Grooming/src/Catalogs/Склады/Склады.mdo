@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ef7c7a8-02eb-464e-b834-596bae78c721">
+  <producedTypes>
+    <objectType typeId="4f440fba-bba0-4467-ac77-6225dc51fd9a" valueTypeId="813468d3-9998-4f05-ae7a-5f283fea414d"/>
+    <refType typeId="e3a4ff3f-ce65-4c14-85cb-cddea6935841" valueTypeId="e26b2de5-23ec-4206-a0c7-027af4f56746"/>
+    <selectionType typeId="2e387292-5d8e-4240-9da2-dc667278ae2b" valueTypeId="d099f0ec-7eab-440b-ad52-20b6a03006be"/>
+    <listType typeId="f4e7701d-a38d-4f6c-9a4a-f17f22717981" valueTypeId="04974a85-ab4d-4907-b9be-ba7d7e18cb52"/>
+    <managerType typeId="45d53b94-b830-482c-b6fa-8bfe8d59df5d" valueTypeId="004835f6-5605-44d9-a3f3-6e8e1c984d67"/>
+  </producedTypes>
+  <name>Склады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Склады.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Склады.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Склад</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Склады</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="c8921aca-0aed-44a0-81a2-ac7efd582ec8">
+      <name>Основной</name>
+      <description>Основной</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

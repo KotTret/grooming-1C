@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3bcbaae-362a-4cc8-8dd0-b9dceb5fc3e3">
+  <producedTypes>
+    <objectType typeId="e4500cf2-5ad2-48a9-b4f6-25b9026db902" valueTypeId="c1936765-c8c8-48b9-81a4-b01010efb840"/>
+    <refType typeId="f122c109-f4b7-424b-89a3-4225537a33f2" valueTypeId="eca8446a-a27f-4d9d-8937-e5822fc6ef94"/>
+    <selectionType typeId="eb5de764-feff-413d-bdad-b4bdb3d203f1" valueTypeId="7ccfabdb-5461-4da6-8cc4-f45df6348b11"/>
+    <listType typeId="be0fde30-ce12-42fe-bd84-68d928bde6f5" valueTypeId="d84fb654-17b5-4b13-9b55-d5923df06643"/>
+    <managerType typeId="cd93ac10-bc4a-461a-a36f-bd10cccb1463" valueTypeId="eef11be9-72aa-4ef3-af87-865ecc8bd5a0"/>
+  </producedTypes>
+  <name>Кассы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Кассы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Кассы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="57fb89f0-0528-4833-82cd-5ebc729d00a4">
+    <name>МОЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МОЛ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Материально-ответственное лицо</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

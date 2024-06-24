@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cc04c4f-f3b5-45c1-8c52-52e1b8a39ede">
+  <producedTypes>
+    <objectType typeId="28f68b2f-f259-4cd1-a2aa-c45353f0ca5d" valueTypeId="57ab8ad2-da28-4677-93c7-a37fa5752fe7"/>
+    <refType typeId="730de08d-1b99-4f50-b0b9-9be5798be673" valueTypeId="114bd918-8b2a-473b-948d-160fa565a28d"/>
+    <selectionType typeId="786a7d90-aa15-40e8-bea5-0797f54067dd" valueTypeId="a250d064-1666-478d-8e9a-6f4181b4d109"/>
+    <listType typeId="963c442f-e885-40aa-8b48-02c2ed766d62" valueTypeId="44eaf876-514a-409b-a379-7dd99d820e81"/>
+    <managerType typeId="b10d69e2-e83a-4c11-bf0e-9c1065136093" valueTypeId="30b12bbe-2c5e-4bf3-8e56-a984cb52b092"/>
+  </producedTypes>
+  <name>Банки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Банки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Банки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Банки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="681211f7-826f-4018-88e6-27a3de7e79f2">
+    <name>БИК</name>
+    <synonym>
+      <key>ru</key>
+      <value>БИК</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>11</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Банковский идентификационный код</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

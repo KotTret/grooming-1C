@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2270f13-7fdf-4305-9018-6dcb9fc4a06f">
+  <producedTypes>
+    <objectType typeId="8f753959-2605-44ca-b266-eb8adf1b4975" valueTypeId="32d8d08d-a2af-4c1f-ad7b-0974c34d6800"/>
+    <refType typeId="57c22ddb-9579-4f5a-8cce-61f4ec55bb0a" valueTypeId="7b12962b-4a35-48d0-a572-86dc266e71be"/>
+    <selectionType typeId="5aef0488-7ba5-4992-b33d-b16006450b88" valueTypeId="0cfca897-3e00-466f-a072-924f5d1c1d29"/>
+    <listType typeId="a7cba02c-a28f-49f6-ac85-9dab41c3cde6" valueTypeId="c8bbe582-460e-4117-aae3-59d07c6cba7d"/>
+    <managerType typeId="59600c3b-8988-4028-bbaf-3e65b1709875" valueTypeId="b48e0f0d-8556-4cec-81d1-3efd17e61d7a"/>
+  </producedTypes>
+  <name>ИсточникиПолученияИнформации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источники получения информации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИсточникиПолученияИнформации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИсточникиПолученияИнформации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Источник получения информации</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

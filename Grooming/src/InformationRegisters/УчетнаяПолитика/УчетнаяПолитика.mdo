@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1d3683f-2745-4a37-b3ce-39d50f6a4c46">
+  <producedTypes>
+    <selectionType typeId="a9c7a1ea-f690-49c8-a5c8-b1a1af0c12d8" valueTypeId="09494ea7-2ee1-4169-91aa-da8953b5b52e"/>
+    <listType typeId="b90f76d5-bd70-4bf0-8979-f909f198765a" valueTypeId="d0dd963d-4a04-4a97-b3fe-acdc6336bae8"/>
+    <managerType typeId="5c300fb4-f5fc-4b90-bb35-8d6f914554b6" valueTypeId="da40bcc4-38f4-488f-9e02-4e8b7c8e593f"/>
+    <recordSetType typeId="1cba85e3-cf41-4a57-92cc-1eaa4d4a8c80" valueTypeId="172390e2-5238-4b59-8733-59aea375933d"/>
+    <recordKeyType typeId="c433d3a7-31db-4fa6-b6e4-4a6fd5ad7fcc" valueTypeId="6f004a2f-2f3e-47a9-a2bb-db11d12584aa"/>
+    <recordType typeId="971da56f-f7dc-4dbc-845b-458ee90babb4" valueTypeId="9646876c-9b7b-4bc8-80da-e9818d198a2c"/>
+    <recordManagerType typeId="d55e0168-0ddb-4411-8879-37fe07316e23" valueTypeId="52c14f0e-bcd1-44fa-a22e-ce9abb83f093"/>
+  </producedTypes>
+  <name>УчетнаяПолитика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная политика</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="85daec58-3c3d-455a-9329-1538b885c32e">
+    <name>УчетнаяПолитика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная политика</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыУчетнойПолитики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

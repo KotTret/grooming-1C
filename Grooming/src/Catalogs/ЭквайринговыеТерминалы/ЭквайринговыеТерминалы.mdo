@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7cc580cd-9198-43dd-a346-08389d89fb9f">
+  <producedTypes>
+    <objectType typeId="0a65b79d-2fc4-4770-866c-16ad49ae5be2" valueTypeId="8e9d0ed0-ea8b-4ca6-966a-de02217a96de"/>
+    <refType typeId="5eaec53b-ab23-4fc9-abc1-dd5eb0a18773" valueTypeId="ffcb8505-2532-46d7-8f9d-af65357321a2"/>
+    <selectionType typeId="bb812dd6-828a-46bf-9636-8f89af4ae8d0" valueTypeId="ee57464c-fc88-4f39-a1fa-525d33aa7f85"/>
+    <listType typeId="3ad7cb02-8f05-41fd-93cd-19cdb34e6299" valueTypeId="099dfce5-80cf-43c5-9b4a-d67fc289e946"/>
+    <managerType typeId="7582c2e7-89ec-4b05-8628-03af1a40cbc8" valueTypeId="3d07e5cb-d8dd-4ce8-8ac8-7e3a546af323"/>
+  </producedTypes>
+  <name>ЭквайринговыеТерминалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Эквайринговые терминалы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЭквайринговыеТерминалы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЭквайринговыеТерминалы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="6d6cdc9d-1992-434c-ae99-b2a6a8871c03">
+    <name>Банк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банк</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Банки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c08a37db-9ee2-468c-a14a-8609a8124bb9">
+    <name>Касса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кассы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ПометкаУдаления</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

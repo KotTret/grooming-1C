@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1071f3f5-9c15-47a0-baba-0479aaeff410">
+  <producedTypes>
+    <listType typeId="9669c0c7-47af-4994-b9c4-7fb4fc590496" valueTypeId="a8886439-4ebc-48a4-853e-775fdb694efc"/>
+    <managerType typeId="ed365912-93d2-4c10-a68e-522728bbb757" valueTypeId="9dedb1d2-46b1-4a55-a567-4a4ac8f0fa66"/>
+  </producedTypes>
+  <name>СвязанныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные документы</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.РасходДенежныхСредств</types>
+    <types>DocumentRef.УстановкаУчетнойПолитикиОрганизации</types>
+    <types>DocumentRef.ПоступлениеТоваровИМатериалов</types>
+    <types>DocumentRef.ПеремещениеТоваров</types>
+    <types>DocumentRef.ПоступлениеДенежныхСредств</types>
+    <types>DocumentRef.ЗаписьКлиента</types>
+    <types>DocumentRef.ПоступлениеУслуг</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>DocumentRef.РеализацияТоваровИУслуг</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.РеализацияТоваровИУслуг.Attribute.Основание</content>
+  <content>Document.ПоступлениеДенежныхСредств.Attribute.ДокументОснование</content>
+  <content>Document.РасходДенежныхСредств.Attribute.ДокументОснование</content>
+</mdclass:FilterCriterion>
